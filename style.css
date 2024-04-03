@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #424E61;
+    background-color: #0ECBE8;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -17,19 +18,26 @@ body {
 .cabecalho-imagem{
     width: 10%;
 }
-
+.logo{
+    font-family: "Teko", sans-serif;
+    font-size: 80px;
+    font-weight: weight;
+    font-style: normal;
+    color: #01b455;
+}
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .escola-imagem{
     width: 25%;
+    border-radius: 10px;
 }
 
 .escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
+    background-image: linear-gradient(#0ECBE8,#0E86E8);
     color:white;
     display: flex;
     justify-content: center;
@@ -48,13 +56,21 @@ body {
 
 .estudante{
     padding: 24px 0;
+    background-image: linear-gradient(#0E86E8,#00DB6A);
 }
 .estudante-imagem{
-    width: 120px;
+    width: 320px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.estudante-nome{
+    font-size: 30px;
+    color: #ffffff;
 }
 
 .estudante-icone{
-    width: 24px;
+    width: 30px;
     padding: 4px 8px;
 }
 
@@ -66,8 +82,17 @@ body {
 .estudante-titulo{
     text-align: center;
     padding: 50px 0;
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
+    font-weight: weight;
+    font-style: normal;
+ 
 }
-
+.a-estudante{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
