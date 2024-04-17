@@ -101,10 +101,28 @@ body {
 .rodape{
     background-color: black;
     text-align: center;
+    padding: 10px;
 }
 
 .rodape-imagem{
     height: 60px;
     padding: 12px 0;
    
+}
+.div-rodape{
+    display: flex;  
+    padding: 10px;
+}
+.h3-rodape{
+    color: #ffffff;
+    margin-left: 5px;
+   
+}
+.a-rodape{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h3{
+    color: white;
 }
